@@ -7,7 +7,7 @@ public class Main {
         int finalBalance;
 
         if (replenishment > 100) {
-            int finalBonus = replenishment/100;
+            int finalBonus = replenishment / 100;
 
             finalBalance = balance + replenishment + finalBonus;
 
